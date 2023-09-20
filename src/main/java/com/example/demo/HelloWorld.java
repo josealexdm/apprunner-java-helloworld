@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
 	
     Region region = Region.US_EAST_1;
-    String bucketName = "citi-hackathon-test-647859";
+    String bucketName = "bucket-hackathon-test-930483040";
     
    // ProfileCredentialsProvider credentialsProvider = ProfileCredentialsProvider.create();
     S3Client s3 = S3Client.builder()
